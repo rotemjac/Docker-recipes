@@ -1,0 +1,13 @@
+version: '3.2'
+
+services:
+
+    client:
+      build: './client'
+      #image: balabit/syslog-ng
+      depends_on:
+        - syslog-server
+
+    syslog-server:
+      build: './collector'
+
