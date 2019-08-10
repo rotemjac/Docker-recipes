@@ -1,9 +1,0 @@
-web5:
-
-  #Option 1: - Means docker compose will run a container based on that image
-  #image: nginx
-
-  #Option 2: Build an image based on the Dockerfile found in the path associated with build (and then run a container based on that image).
-  build: "./"
-  ports:
-      - "8080:80"

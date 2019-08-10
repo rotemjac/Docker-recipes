@@ -1,1 +1,0 @@
-Standalone nginx on docker
