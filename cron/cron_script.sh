@@ -1,0 +1,1 @@
+echo "A Cron message..." >> /var/log/cron.log 2>&1
